@@ -173,3 +173,8 @@ MIT License
 ## Author
 * Name: Vartika
 * Course: B.Tech [CSE]
+
+## References
+*   Rogers, D. F., & Adams, J. A. (1990). *Mathematical elements for computer graphics* (2nd ed.). McGraw-Hill.
+*   Routh, E. J. (1905). *The elementary part of a treatise on the dynamics of a system of rigid bodies* (7th ed.). Macmillan.
+*   Weisstein, E. W. (n.d.). *Bézier curve*. MathWorld. Retrieved December 17, 2024, from https://mathworld.wolfram.com/
