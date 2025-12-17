@@ -13,7 +13,7 @@ struct BezierCurve {
     let p2: Vector2
     let p3: Vector2
     
-    //Cal point on curve at t = (0 to 1) (Rogers, D. F., & Adams, J. A. (1990). *Mathematical elements for computer graphics* (2nd ed.). McGraw-Hill.)
+    //Cal point on curve at t = (0 to 1) (Rogers & Adams, 1990)
     func calculatePoint(t: Double) -> Vector2 {
         let u = 1 - t
         let u2 = u * u
@@ -30,7 +30,7 @@ struct BezierCurve {
         return term0.add(term1).add(term2).add(term3)
     }
     
-    // Cal tangent vector at t (Rogers, D. F., & Adams, J. A. (1990). *Mathematical elements for computer graphics* (2nd ed.). McGraw-Hill.)
+    // Cal tangent vector at t (Rogers & Adams, 1990)
     func calculateTangent(t: Double) -> Vector2 {
         let u = 1 - t
         
