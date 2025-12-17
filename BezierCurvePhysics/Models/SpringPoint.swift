@@ -36,11 +36,11 @@ class SpringPoint: ObservableObject {
             return
         }
         
-        //Spring force: F = -k * (x - target)
+        //Spring force: F = -k * (x - target) (Routh, 1905, p. 102)
         let displacement = position.subtract(target)
         let springForce = displacement.multiply(-k)
         
-        //Damping force: F = -damping * velocity
+        //Damping force: F = -damping * velocity (Routh, 1905, p. 102)
         let dampingForce = velocity.multiply(-damping)
         
         //Total force and acceleration (F = ma, so a = F/m)
